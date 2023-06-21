@@ -1,0 +1,27 @@
+#transition-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  button a {
+    border-radius: 9px;
+    border: none;
+    background-color: #0312e7;
+    color: white;
+    font-size: 18px;
+    padding: 16px 24px;
+    text-decoration: none;
+    text-align: center;
+   }
+    button {
+        transition: transform .3s ease-in-out;
+      }
+      
+      button:hover {
+        transform: scale(1.2)
+      }
